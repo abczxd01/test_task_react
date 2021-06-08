@@ -1,0 +1,23 @@
+.filters {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  &__title {
+    font-size: 20px;
+    display: inline;
+  }
+  &__bth {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 5px 0 3px 0;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    transition: 0.2s;
+    &:hover {
+      color: rgba(0, 89, 255, 0.39);
+      border-bottom-color: rgba(0, 89, 255, 0.39);
+    }
+  }
+}

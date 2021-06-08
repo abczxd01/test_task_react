@@ -1,0 +1,20 @@
+.create-task {
+  position: relative;
+  &__input {
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid #a8aab19a;
+  }
+  &__button {
+    position: absolute;
+    font-size: 38px;
+    right: 10px;
+    top: -10px;
+    transition: 0.2s;
+    &:hover {
+      color: #2c3d7ada;
+    }
+  }
+}
